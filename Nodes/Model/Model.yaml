@@ -1,0 +1,18 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarInteger
+  Id: g=07abc04bdadbaecfef342edbf78d4c0f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: VarName
+  Id: g=6b1e53f7749e5fe409a89f27ad227669
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Sample 01"
+- Name: VarQuery
+  Id: g=d957f4053da735ff217d387ff2111c01
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Table1 ORDER BY Timestamp"
